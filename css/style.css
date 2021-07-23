@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@100&display=swap');
+
+
+
+.video{
+    position: relative;
+    z-index: 1;
+}
+#home{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+
+}
+#home ::before{
+    content: '';
+    position: relative;
+    top: 0;
+    right: 0;
+    opacity: .8;
+    height: 600px;
+    width: 100%;
+    background: url(../Frame\ -\ 81089.mp4);
+}
+
+
+
+.carousel-caption{
+    width: 0 auto;
+    
+}
+.text-muted2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin: 10;
+    border: 3px;
+}
+
+.text-muted3{
+    
+    font-family: 'Dancing Script', cursive;    
+    font-size: 80px;
+    transition: 0,3s;
+}
+.text-muted3:hover{
+    font-size: 100px;
+    transition: 0.3s;
+}
+
+
+
+#wrapper{
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 50%;
+    height: 30px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+}
+#test{
+    background: #63ffd1;
+    border-radius: 5px;
+    width: 0%;
+    height: 24px;
+    animation: test 4s linear infinite -1s ;
+
+
+}
+
+
+
+
+@keyframes test{
+    0% {
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+
+h1{
+    height: 39px;
+    border: 2px solid #202328;
+    color: #202328;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    letter-spacing: 0.75px;
+    transition: 0.3s;
+    
+
+
+}
+h1:hover {
+    color: black;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #63ffd1;
+    opacity: 0.59;
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+
+/* #block{
+    width: 100px;
+    height: 100px;
+    background: black;
+    transition: 3s;
+     */
+    
+/* } */
+ 
+.text-muted{
+    font-family: 'Dancing Script', cursive;
+   width: 100%;
+   background-color: transparent;
+
+}
+
+
+#block:hover{
+    margin-left: 200px;
+}
+
+.d1{
+    width: 50px;
+    height: 50px;
+    border: 2.5px solid gold ;
+    background: gray;
+    border-radius: 10px;
+    margin: 100px;
+    animation-duration:  4s;
+    animation-timing-function: ease;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-name: anim;
+}
+
+
+@keyframes anim{
+    0%{
+        margin-left: 90%;
+        background: blue;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 90%;
+        background: red;
+    }
+}
+#d2{
+    width: 50px;
+    height: 50px;
+    border: 2.5px solid gold ;
+    background: gray;
+    border-radius: 10px;
+    margin: 50px;
+    animation-duration:  4s;
+    animation-timing-function: ease;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-name: anim1;
+}
+
+@keyframes anim1{
+    0%{
+        margin-left: 90%;
+        background: white;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 50%;
+        background: black;
+        border-radius: 8px;
+    }
+}
+
+
+
+
+.carousel-caption h5{
+    font-size: 30px;
+    color: rgb(124, 9, 90);
+
+}
+.carousel-caption h5 :hover{
+    font-size: 50px;
+    transition: 0.2;
+}
